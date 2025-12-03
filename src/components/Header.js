@@ -18,10 +18,10 @@ const Header = () => {
           />
         </div>
         <div className="nav-center">
-          <a className="nav-link">Product</a>
-          <a className="nav-link">Pricing</a>
-          <a className="nav-link">Resources</a>
-          <a className="nav-link">Company</a>
+          <a href="https://www.leadcrm.io/" className="nav-link">Product</a>
+          <a href="https://www.leadcrm.io/" className="nav-link">Pricing</a>
+          <a href="https://www.leadcrm.io/" className="nav-link">Resources</a>
+          <a href="https://www.leadcrm.io/" className="nav-link">Company</a>
         </div>
         <div className="nav-right">
           <button className="btn-outline">Get Your Free Account</button>
@@ -37,7 +37,7 @@ const Header = () => {
         <div className="hero-section">
           <h1 className="main-title" style={{ margin: '0px' }}>LinkedIn CRM Integration</h1>
           <h2 className="main-title" style={{ margin: '0px' }} >Capture, Sync and Enrich in <span className='both-way'>Both Ways
-            <img src='https://img.leadcrm.io/wp-content/uploads/2025/07/08050121/line-1.webp' className='both-way-bottom-icon' />
+            <img src='https://img.leadcrm.io/wp-content/uploads/2025/07/08050121/line-1.webp' alt='line' className='both-way-bottom-icon' />
           </span></h2>
           <p className="description">
             Automatically sync LinkedIn prospects to your CRM and overlay existing CRM contacts on<br />
@@ -68,7 +68,7 @@ const Header = () => {
               background: '#373737'
             }}>
               <h3 className="section-title-0" style={{ color: 'white' }}>Available in</h3>
-              <h3 className="section-title-2">Chrome web Store <a className="store-link">
+              <h3 className="section-title-2">Chrome web Store <a href="https://www.leadcrm.io/" className="store-link">
                 <img
                   src={Chrome}
                   alt="Get it on Google Play"
