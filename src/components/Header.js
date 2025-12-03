@@ -3,7 +3,6 @@ import './Header.css';
 import iconWork from '../images/Icon-work-with.png';
 import startReview from '../images/star-review.webp';
 import Chrome from '../images/Chrome.webp';
-import bgImage from '../images/bg-1.webp';
 
 
 
@@ -19,10 +18,10 @@ const Header = () => {
           />
         </div>
         <div className="nav-center">
-          <a href="#" className="nav-link">Product</a>
-          <a href="#" className="nav-link">Pricing</a>
-          <a href="#" className="nav-link">Resources</a>
-          <a href="#" className="nav-link">Company</a>
+          <a className="nav-link">Product</a>
+          <a className="nav-link">Pricing</a>
+          <a className="nav-link">Resources</a>
+          <a className="nav-link">Company</a>
         </div>
         <div className="nav-right">
           <button className="btn-outline">Get Your Free Account</button>
@@ -32,7 +31,7 @@ const Header = () => {
 
       <main className="main-content">
         <div className="top-banner">
-          <p className="banner-text"> <img src='https://img.leadcrm.io/wp-content/uploads/2025/07/08045258/rocket-icon.svg' width={20} height={20} style={{ marginRight: '10px' }} /> Thousands of Professional using LeadCRM</p>
+          <p className="banner-text"> <img src='https://img.leadcrm.io/wp-content/uploads/2025/07/08045258/rocket-icon.svg' alt='rocket' width={20} height={20} style={{ marginRight: '10px' }} /> Thousands of Professional using LeadCRM</p>
         </div>
 
         <div className="hero-section">
@@ -69,7 +68,7 @@ const Header = () => {
               background: '#373737'
             }}>
               <h3 className="section-title-0" style={{ color: 'white' }}>Available in</h3>
-              <h3 className="section-title-2">Chrome web Store <a href="#" className="store-link">
+              <h3 className="section-title-2">Chrome web Store <a className="store-link">
                 <img
                   src={Chrome}
                   alt="Get it on Google Play"

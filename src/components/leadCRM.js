@@ -1,6 +1,5 @@
 import React from 'react';
 import './LeadCRM.css';
-import bgImage from '../images/bg-1.webp';
 
 const LeadCRM = () => {
     return (

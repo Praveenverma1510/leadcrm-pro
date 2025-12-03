@@ -1,12 +1,8 @@
-// App.js
-import React from 'react';
 import Header from './components/Header';
-import HeroSection from './components/HeroSection';
 import Footer from './components/Footer';
 import './App.css';
 import LeadCRM from './components/leadCRM';
 import Testimonials from './components/Testimonials';
-import LinkedInSolutions from './components/LinkedInSolutions';
 import HowItWorks from './components/HowItWorks';
 import CRMIntegrations from './components/CRMIntegrations';
 import LeadCRMHeader from './components/LeadCRMHeader';

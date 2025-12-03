@@ -82,25 +82,6 @@ const Testimonials = () => {
     }
   ];
 
-  // Additional testimonials from screenshot
-  const screenshotTestimonials = [
-    {
-      quote: "Reliable Data Sync I've only had to refresh the extension a couple of times. The multi-contact enrichment is still a huge plus, and support is very responsive.",
-      author: "David Fincher",
-      platform: "On Captions"
-    },
-    {
-      quote: "My experience with LeadCRM has been excellent. It has streamlined my workflow, improved lead tracking, and made follow-ups more efficient. The responsive customer support is a big plus. Highly recommend it for reliable lead management!",
-      author: "Litlan Williams",
-      platform: "On Captions"
-    },
-    {
-      quote: "Reliable Data Sync I've only had to refresh the extension a couple of times. The multi-contact enrichment is still a huge plus, and support is very responsive.",
-      author: "Michael",
-      platform: "On Captions"
-    }
-  ];
-
   return (
     <div className="testimonials-section elementor-element elementor-element-d0fe101 elementor-hidden-mobile e-flex e-con-boxed e-con e-parent">
       <div className="e-con-inner">

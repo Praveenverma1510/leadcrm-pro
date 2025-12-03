@@ -1,38 +1,7 @@
-import React from 'react';
 import './CRMIntegrations.css';
 
 const CRMIntegrations = () => {
-  // CRM platforms data (from screenshot)
-  const crmPlatforms = [
-    { name: "HubSpot", type: "CRM" },
-    { name: "Salesforce", type: "CRM" },
-    { name: "Pipedrive", type: "CRM" },
-    { name: "Zoho", type: "CRM" },
-    { name: "Freshworks", type: "CRM" },
-    { name: "Monday", type: "CRM" },
-    { name: "Copper", type: "CRM" },
-    { name: "ActiveCampaign", type: "CRM" }
-  ];
 
-  // Data fields that can be synced (from screenshot)
-  const dataFields = [
-    { name: "First Name", category: "Contacts" },
-    { name: "Last Name", category: "Contacts" },
-    { name: "Email", category: "Contacts" },
-    { name: "Phone", category: "Contacts" },
-    { name: "Company", category: "Company" },
-    { name: "Title", category: "Company" },
-    { name: "Website", category: "Company" },
-    { name: "Location", category: "Company" },
-    { name: "LinkedIn URL", category: "Social" },
-    { name: "Conversations", category: "Social" },
-    { name: "Company Employees", category: "Company" },
-    { name: "Last Activity", category: "Activity" },
-    { name: "Notes", category: "Activity" },
-    { name: "Tags", category: "Organization" },
-    { name: "Deal Stage", category: "Sales" },
-    { name: "Lead Source", category: "Sales" }
-  ];
 
   return (
     <div className="crm-integrations elementor-element elementor-element-2716740 elementor-hidden-mobile e-flex e-con-boxed e-con e-parent">
