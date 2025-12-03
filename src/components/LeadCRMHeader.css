@@ -1,0 +1,74 @@
+.lead-crm-container {
+  background: #f8f9fa; /* Adjust based on your design */
+  padding: 40px 20px;
+}
+
+.lead-crm-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.lead-crm-content {
+  text-align: center;
+}
+
+.main-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.subtitle-container {
+  margin-bottom: 30px;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #666;
+  font-weight: 400;
+}
+
+.button-container {
+  margin-top: 30px;
+}
+
+.get-started-button {
+  display: inline-flex;
+  align-items: center;
+  background: #0073b1; /* LinkedIn blue color */
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.get-started-button:hover {
+  background: #005582;
+}
+
+.button-content {
+  display: flex;
+  align-items: center;
+}
+
+.button-icon {
+  margin-right: 8px;
+}
+
+.button-text {
+  font-size: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+  }
+}

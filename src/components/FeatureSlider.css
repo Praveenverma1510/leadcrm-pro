@@ -1,0 +1,63 @@
+/* components/FeatureSlider.css */
+.feature-slider-wrapper {
+  width: 100%;
+  overflow: hidden;
+  background: #fff;
+  padding: 10px 0;
+  margin-top: 50px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.slider-track {
+  display: flex;
+  animation: scroll 25s linear infinite;
+}
+
+.slide {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 10px 30px;
+  white-space: nowrap;
+  gap: 10px;
+}
+
+.slide img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.slide-text {
+  color: #090F4E;
+  font-family: "Exo 2", sans-serif;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@media (max-width: 768px) {
+  .feature-slider-wrapper {
+    padding: 0;
+  }
+  
+  .slide {
+    min-width: 200px;
+    padding: 10px 20px;
+  }
+  
+  .slide img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .slide-text {
+    font-size: 16px;
+  }
+}

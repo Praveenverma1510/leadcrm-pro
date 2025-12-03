@@ -1,0 +1,49 @@
+.hero-container {
+  background-background: classic;
+  /* Add additional styling as needed */
+}
+
+.elementor-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #0073aa; /* Adjust color as needed */
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.elementor-button:hover {
+  background-color: #005a87; /* Darker shade on hover */
+}
+
+.elementor-button-icon {
+  margin-right: 8px;
+}
+
+.elementor-heading-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .elementor-heading-title {
+    font-size: 1.5rem;
+  }
+  
+  .elementor-mobile-align-center {
+    text-align: center;
+  }
+}
+
+/* Image styling */
+.elementor-widget-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+}

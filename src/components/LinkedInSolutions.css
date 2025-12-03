@@ -1,0 +1,463 @@
+.linkedin-solutions {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #f8f9ff 100%);
+}
+
+.e-con-inner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+.elementor-element-ff001bf {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.elementor-heading-title.elementor-size-default {
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #4a6cf7 0%, #6a11cb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.elementor-element-cb30656 .elementor-heading-title {
+    font-size: 1.2rem;
+    color: #666;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Tabs Navigation */
+.eael-tabs-nav {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #eee;
+}
+
+.eael-tab-inline-icon {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.eael-tab-nav-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 30px;
+    background: white;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    min-width: 250px;
+}
+
+.eael-tab-nav-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border-color: #4a6cf7;
+}
+
+.eael-tab-nav-item.active {
+    background: linear-gradient(135deg, #4a6cf7 0%, #6a11cb 100%);
+    border-color: #4a6cf7;
+    transform: translateY(-5px);
+}
+
+.eael-tab-nav-item.active .eael-tab-title {
+    color: white;
+}
+
+.eael-tab-nav-item img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.eael-tab-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* Problem Section */
+.problem-section {
+    margin-bottom: 40px;
+}
+
+.elementor-divider {
+    margin: 30px 0;
+}
+
+.elementor-divider-separator {
+    display: block;
+    height: 4px;
+    background: #EDEDED;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.problem-statement {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.problem-statement h2 {
+    font-size: 1.8rem;
+    color: #4D4D4D;
+    font-weight: 400;
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 0 auto 15px;
+}
+
+.red-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ff4757 100%);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.solution-subtitle {
+    text-align: center;
+    margin: 25px 0 40px;
+}
+
+.solution-subtitle p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.solution-link {
+    display: inline-block;
+    color: #097737;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #097737;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.solution-link:hover {
+    background: #097737;
+    color: white;
+}
+
+/* Solutions Grid */
+.solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.solution-card {
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 400px;
+}
+
+.solution-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+.solution-content {
+    /* flex: 1; */
+}
+
+.solution-title {
+    font-family: "Exo 2", Sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #262626;
+    margin-bottom: 25px;
+    line-height: 1.3;
+}
+
+/* Features List */
+.features-list {
+    /* margin: 20px 0; */
+}
+
+.features-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.features-list li {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 8px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.features-list li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #097737;
+    font-weight: bold;
+}
+
+/* Contact Info */
+.contact-info {
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-details h3 {
+    font-size: 1.4rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.contact-details .email {
+    color: #4a6cf7;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+.contact-details .position,
+.contact-details .phone,
+.contact-details .status {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 5px;
+}
+
+.contact-details .status {
+    color: #097737;
+    font-weight: 600;
+}
+
+/* Waterfall Section */
+.waterfall-section {
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 2px dashed #eee;
+}
+
+.waterfall-title {
+    color: #666;
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.vendors-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.vendor-item {
+    background: #f8f9ff;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.vendor-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.vendor-name {
+    font-weight: 600;
+    color: #333;
+    font-size: 0.95rem;
+}
+
+.vendor-status {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.vendor-status-badge {
+    display: inline-block;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.vendor-status-badge.not-found {
+    background: #ffeaea;
+    color: #ff4757;
+}
+
+.vendor-status-badge.found {
+    background: #e8f5e9;
+    color: #097737;
+}
+
+/* Solution Button */
+.solution-button {
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    color: #097737;
+    font-family: "Exo 2", Sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 0;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* margin-top: 20px; */
+}
+
+.solution-button:hover {
+    color: #075c2c;
+    transform: translateX(5px);
+}
+
+.button-content-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-icon {
+    font-size: 1.2rem;
+    transition: transform 0.3s ease;
+}
+
+.solution-button:hover .button-icon {
+    transform: translateX(5px);
+}
+
+.button-text {
+    font-size: 1rem;
+}
+
+/* Solution Image */
+.solution-image {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.solution-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .solutions-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .eael-tab-nav-item {
+        min-width: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .linkedin-solutions {
+        padding: 60px 15px;
+    }
+
+    .elementor-heading-title.elementor-size-default {
+        font-size: 2.2rem;
+    }
+
+    .eael-tab-inline-icon {
+        gap: 10px;
+    }
+
+    .eael-tab-nav-item {
+        padding: 15px 20px;
+        min-width: 160px;
+    }
+
+    .eael-tab-title {
+        font-size: 1rem;
+    }
+
+    .problem-statement h2 {
+        font-size: 1.4rem;
+    }
+
+    .solution-title {
+        font-size: 1.5rem;
+    }
+
+    .solution-card {
+        padding: 25px 20px;
+    }
+
+    .contact-info {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .eael-tab-inline-icon {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .eael-tab-nav-item {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .red-badge {
+        display: block;
+        margin: 10px auto 0;
+        width: fit-content;
+    }
+
+    .solution-subtitle p {
+        font-size: 1rem;
+    }
+
+    .solution-link {
+        font-size: 1rem;
+        padding: 8px 16px;
+    }
+
+    .solution-button {
+        font-size: 1rem;
+    }
+}

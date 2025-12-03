@@ -1,0 +1,449 @@
+/* BrokenWorkflow.css - Scoped styles with broken-workflow- prefix */
+
+.broken-workflow-container {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: #333;
+}
+
+/* Main Header */
+.broken-workflow-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.broken-workflow-main-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0;
+    color: #2d3748;
+}
+
+.broken-workflow-title-span {
+    background: linear-gradient(90deg, #0a66c2 0%, #004182 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: "exo-2", sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+/* Comparison Container */
+.broken-workflow-comparison {
+    width: 100%;
+}
+
+.broken-workflow-comparison-inner {
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+
+/* Sections */
+.broken-workflow-section {
+    flex: 1;
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.broken-workflow-section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.broken-workflow-section.without-leadcrm {
+    border-top: 4px solid #e53e3e;
+    background: #FFF7F8;
+}
+
+.broken-workflow-section.with-leadcrm {
+    border-top: 4px solid #38a169;
+}
+
+/* Section Header Image */
+.broken-workflow-section-header-image {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.broken-workflow-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Section Title */
+.broken-workflow-section-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.broken-workflow-section-heading {
+    margin: 0;
+    color: rgba(210, 75, 104, 1);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    gap: 10px;
+    font-family: "exo-2", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+
+}
+
+/* Logo */
+.broken-workflow-logo {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+
+/* Badges */
+.broken-workflow-badge {
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+.broken-workflow-red-badge {
+    background-color: #fed7d7;
+    color: #c53030;
+    border: 1px solid #feb2b2;
+}
+
+.broken-workflow-green-badge {
+    background-color: #c6f6d5;
+    color: #276749;
+    border: 1px solid #9ae6b4;
+}
+
+/* Feature Box */
+.broken-workflow-feature-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.broken-workflow-feature-box:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+.broken-workflow-feature-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.broken-workflow-feature-icon img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.broken-workflow-feature-content {
+    flex: 1;
+}
+
+.broken-workflow-feature-title-section {
+    margin-bottom: 8px;
+}
+
+.broken-workflow-feature-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    color: #2d3748;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.broken-workflow-feature-description p {
+    margin: 0;
+    color: #4a5568;
+    line-height: 1.5;
+    font-size: 0.95rem;
+}
+
+/* Divider Container */
+.broken-workflow-divider-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.broken-workflow-divider-line {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6%;
+}
+
+.broken-workflow-divider-line-wrapper {
+    width: 2px;
+    height: 100%;
+}
+
+.broken-workflow-divider-image {
+    width: 2px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.broken-workflow-divider-vs {
+    padding: 10px 0;
+}
+
+.broken-workflow-divider-vs-wrapper {
+    background: white;
+    border: 2px solid #e2e8f0;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.broken-workflow-divider-text {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    color: #4a5568;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .broken-workflow-comparison-inner {
+        gap: 30px;
+    }
+
+    .broken-workflow-main-title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .broken-workflow-container {
+        padding: 30px 15px;
+    }
+
+    .broken-workflow-main-title {
+        font-size: 1.8rem;
+    }
+
+    .broken-workflow-comparison-inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .broken-workflow-divider-container {
+        display: none !important;
+        /* Hidden on mobile as per original */
+    }
+
+    .broken-workflow-section-heading {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .broken-workflow-badge {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .broken-workflow-main-title {
+        font-size: 1.6rem;
+    }
+
+    .broken-workflow-section {
+        padding: 20px;
+    }
+
+    .broken-workflow-section-heading {
+        font-size: 1.5rem;
+    }
+
+    .broken-workflow-feature-title {
+        font-size: 1.1rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+}
+
+/* FeaturesSection.css - All styles scoped with features- prefix */
+
+.features-container {
+    padding: 20px 20px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+}
+
+.features-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.feature-card {
+    background: white;
+    border-radius: 16px;
+    padding: 35px 30px;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
+    border: 1px solid #e9ecef;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 30px rgba(10, 102, 194, 0.15);
+    border-color: #0a66c2;
+}
+
+.feature-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #0a66c2 0%, #004182 100%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.feature-card:hover::before {
+    opacity: 1;
+}
+
+.feature-icon-wrapper {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto 25px;
+    background: linear-gradient(135deg, #f0f7ff 0%, #e6f0ff 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover .feature-icon-wrapper {
+    background: linear-gradient(135deg, #0a66c2 0%, #004182 100%);
+    transform: scale(1.1);
+}
+
+.feature-icon {
+    font-size: 32px;
+    transition: all 0.3s ease;
+}
+
+.feature-card:hover .feature-icon {
+    color: white;
+}
+
+.feature-title {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2d3748;
+    margin-bottom: 15px;
+    line-height: 1.3;
+}
+
+.feature-description {
+    color: #4a5568;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .features-container {
+        padding: 60px 20px;
+    }
+
+    .features-grid {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        gap: 20px;
+    }
+
+    .feature-card {
+        padding: 30px 25px;
+    }
+
+    .feature-icon-wrapper {
+        width: 60px;
+        height: 60px;
+        margin-bottom: 20px;
+    }
+
+    .feature-icon {
+        font-size: 28px;
+    }
+
+    .feature-title {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .features-container {
+        padding: 50px 15px;
+    }
+
+    .feature-card {
+        padding: 25px 20px;
+    }
+
+    .feature-title {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,43 @@
+/* App.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+.main-content{
+  background-image: url(../src/images/bg-1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+::selection {
+  color: white;
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background-color: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+}
+
+:root {
+  --primary-color: #1A3E62;
+  --accent-color: #01B2D8;
+  --gradient-start: #4f46e5;
+  --gradient-middle: #7c3aed;
+  --gradient-end: #f093fb;
+}
